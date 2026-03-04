@@ -1,0 +1,24 @@
+services:
+  app:
+    image: oferta-creativa-frontend:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - drenvex_network
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+      labels:
+        - "traefik.enable=true"
+        - "traefik.docker.network=drenvex_network"
+        - "traefik.http.routers.creativas-pame.rule=Host(`creativas.pameflorescrea.com`)"
+        - "traefik.http.routers.creativas-pame.entrypoints=websecure"
+        - "traefik.http.routers.creativas-pame.tls=true"
+        - "traefik.http.routers.creativas-pame.priority=100"
+        - "traefik.http.services.creativas-pame.loadbalancer.server.port=80"
+
+networks:
+  drenvex_network:
+    external: true
