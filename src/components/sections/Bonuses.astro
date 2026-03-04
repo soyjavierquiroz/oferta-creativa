@@ -1,0 +1,254 @@
+---
+import ButtonCTA from "../ui/ButtonCTA.astro";
+import Card from "../ui/Card.astro";
+import SectionDivider from "../ui/SectionDivider.astro";
+---
+
+<section class="bg-white px-4 py-20">
+  <div class="mx-auto max-w-6xl space-y-10">
+    <div class="text-center">
+      <h2 class="text-3xl font-black leading-tight text-theme-primary md:text-5xl">
+        Además obtendrás 5 bonos exclusivos
+        <br />
+        <span class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">Valuados en más de $600 USD</span>
+      </h2>
+      <p class="mt-4 text-lg">Hoy completamente gratis al ser parte del bootcamp</p>
+    </div>
+
+    <div class="grid gap-5">
+      <Card class="grid gap-5 bg-gradient-to-br from-white via-theme-bg to-white p-6 md:grid-cols-[1.2fr_0.8fr]">
+        <div>
+          <h3 class="text-2xl font-black text-theme-primary">
+            Empaque y
+            <br />
+            <span class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">Presentación</span>
+          </h3>
+          <ul class="mt-3 list-inside list-disc space-y-1 leading-relaxed">
+            <li>Aprenderás a elevar la imagen de tus postres</li>
+            <li>Parámetros para lograr un empaque que deje huella</li>
+            <li>Cómo lograr una presentación alineada a tu marca y colores</li>
+          </ul>
+        </div>
+        <img src="/images/Empaque-y-presentacion.webp" alt="" class="w-full rounded-2xl object-cover" loading="lazy" />
+      </Card>
+
+      <Card class="grid gap-5 bg-gradient-to-br from-white via-theme-bg to-white p-6 md:grid-cols-[1.2fr_0.8fr]">
+        <div>
+          <h3 class="text-2xl font-black text-theme-primary">
+            Guía de Rentabilidad
+            <br />
+            <span class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">de productos</span>
+          </h3>
+          <ul class="mt-3 list-inside list-disc space-y-1 leading-relaxed">
+            <li>Cómo lograr una receta estándar</li>
+            <li>Metodología correcta paso a paso para costear tus productos</li>
+            <li>Aprenderás a calcular precios justos y rentables de tus postres</li>
+          </ul>
+        </div>
+        <img src="/images/Guia-de-rentabilidad-0445733.webp" alt="" class="w-full rounded-2xl object-cover" loading="lazy" />
+      </Card>
+
+      <Card class="grid gap-5 bg-gradient-to-br from-white via-theme-bg to-white p-6 md:grid-cols-[1.2fr_0.8fr]">
+        <div>
+          <h3 class="text-2xl font-black text-theme-primary">
+            Instructivo de fotografia
+            <br />
+            <span class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">de postres con el celular</span>
+          </h3>
+          <ul class="mt-3 list-inside list-disc space-y-1 leading-relaxed">
+            <li>Aprenderás cómo tomar fotos que venden</li>
+            <li>Ajustes básicos con diferentes celulares</li>
+            <li>Ángulos, luz y sombras</li>
+            <li>Elementos básicos que necesitas para resaltar tus fotos</li>
+          </ul>
+        </div>
+        <img src="/images/fotografia-de-postres-0445733.webp" alt="" class="w-full rounded-2xl object-cover" loading="lazy" />
+      </Card>
+
+      <Card class="grid gap-5 bg-gradient-to-br from-white via-theme-bg to-white p-6 md:grid-cols-[1.2fr_0.8fr]">
+        <div>
+          <h3 class="text-2xl font-black text-theme-primary">Planificador de campañas por temporada</h3>
+          <ul class="mt-3 list-inside list-disc space-y-1 leading-relaxed">
+            <li>Calendario de temporadas clave con ideas de postres a incluir aprendidas en el bootcamp.</li>
+            <li>Acceso a un plan de contenido</li>
+            <li>Check list de preparación</li>
+            <li>Plantilla para anotar resultados</li>
+          </ul>
+        </div>
+        <img src="/images/Planificador-de-campanas-0445732.webp" alt="" class="w-full rounded-2xl object-cover" loading="lazy" />
+      </Card>
+
+      <Card class="grid gap-5 bg-gradient-to-br from-white via-theme-bg to-white p-6 md:grid-cols-[1.2fr_0.8fr]">
+        <div>
+          <h3 class="text-2xl font-black text-theme-primary">Reto Repostera en Acción</h3>
+          <p class="mt-3 leading-relaxed">
+            Tendrás 7 días para compartir tus postres del bootcamp y participar por 1 premio.
+            <br />
+            <br />
+          </p>
+          <ul class="list-inside list-disc space-y-1 leading-relaxed">
+            <li>Premio 1: Batidora Kitchen Aid (valorado en 350usd)</li>
+            <li>Premio 2: Acceso al curso Repostería saludable Premium (valorado en 650usd)</li>
+            <li>Premio 3: Acceso a 1 taller (virtual o presencial) valorado en 97usd</li>
+          </ul>
+        </div>
+        <img src="/images/Reto-repostera-0445732.webp" alt="" class="w-full rounded-2xl object-cover" loading="lazy" />
+      </Card>
+    </div>
+
+    <div class="text-center">
+      <ButtonCTA href="#oferta" text="¡UNIRME AL BOOTCAMP!" />
+    </div>
+  </div>
+</section>
+
+<section id="oferta" class="bg-theme-bg px-4 py-20">
+  <div class="mx-auto max-w-6xl space-y-10">
+    <h2 class="text-center text-3xl font-black leading-tight text-theme-primary md:text-5xl">
+      Recapitulemos lo que obtendrás al unirte al
+      <br />
+      <span class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">Bootcamp“Postres saludables para Emprender”</span>
+    </h2>
+
+    <Card class="p-6">
+      <img src="/images/Mockups-bootcamp-nuevo.webp" alt="" class="w-full rounded-2xl object-cover" loading="lazy" />
+    </Card>
+
+    <div class="grid gap-5 md:grid-cols-2">
+      <Card class="p-6">
+        <h3 class="text-2xl font-black text-theme-primary">Beneficios</h3>
+        <ul class="mt-4 list-inside list-disc space-y-2 leading-relaxed">
+          <li>6 módulos completos de aprendizaje</li>
+          <li>Sesiones en vivo y asesoría grupal con Gisela</li>
+          <li>Acceso a 1 año a la plataforma de estudios</li>
+          <li>Grupo privado de reposteras emprendedoras</li>
+          <li>Certificado de Participación</li>
+        </ul>
+      </Card>
+      <Card class="p-6">
+        <h3 class="text-2xl font-black text-theme-primary">Bonos especiales</h3>
+        <ul class="mt-4 list-inside list-disc space-y-2 leading-relaxed">
+          <li><b>BONO #1:</b> Manual Tu marca saludable desde cero</li>
+          <li><b>BONO #2:</b> Guía de Rentabilidad de productos</li>
+          <li><b>BONO #3:</b> Instructivo de fotografía de postres con el celular</li>
+          <li><b>BONO #4:</b> Planificador de campañas por temporada</li>
+          <li><b>BONO #5:</b> Reto repostera en acción</li>
+        </ul>
+      </Card>
+    </div>
+
+    <Card class="p-8 text-center">
+      <h3 class="text-3xl font-black text-theme-primary">
+        Programa valuado en <s class="text-theme-accent">1450 USD</s>
+      </h3>
+      <p class="mt-4 text-lg">Únete hoy por solo:</p>
+      <p class="mt-1 text-5xl font-black text-theme-accent">$197 USD</p>
+      <div class="mt-6">
+        <ButtonCTA href="https://hotm.io/bootcamp-paginawebb" target="_blank" rel="noopener noreferrer" text="¡UNIRME AL BOOTCAMP!" />
+      </div>
+    </Card>
+  </div>
+</section>
+
+<section class="bg-white px-4 py-20">
+  <div class="mx-auto max-w-6xl space-y-10">
+    <h2 class="text-center text-3xl font-black leading-tight text-theme-primary md:text-5xl">
+      Trabajos de
+      <br />
+      <span class="text-theme-accent">nuestras alumnas</span>
+    </h2>
+
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <img src="/images/Diseno_sin_titulo_5-9497013.webp" alt="Diseño_sin_título_5-9497013" class="aspect-square w-full rounded-2xl object-cover" loading="lazy" />
+      <img src="/images/Diseno_sin_titulo_6-9497012.webp" alt="Diseño_sin_título_6-9497012" class="aspect-square w-full rounded-2xl object-cover" loading="lazy" />
+      <img src="/images/Diseno_sin_titulo_7-9497012.webp" alt="Diseño_sin_título_7-9497012" class="aspect-square w-full rounded-2xl object-cover" loading="lazy" />
+      <img src="/images/Diseno_sin_titulo_12-9497144.webp" alt="Diseño_sin_título_12-9497144" class="aspect-square w-full rounded-2xl object-cover" loading="lazy" />
+      <img src="/images/Diseno_sin_titulo_11-9497144.webp" alt="Diseño_sin_título_11-9497144" class="aspect-square w-full rounded-2xl object-cover" loading="lazy" />
+      <img src="/images/Diseno_sin_titulo_10-9497144.webp" alt="Diseño_sin_título_10-9497144" class="aspect-square w-full rounded-2xl object-cover" loading="lazy" />
+      <img src="/images/Diseno_sin_titulo_9-9497145.webp" alt="Diseño_sin_título_9-9497145" class="aspect-square w-full rounded-2xl object-cover" loading="lazy" />
+      <img src="/images/Diseno_sin_titulo_8-9497145.webp" alt="Diseño_sin_título_8-9497145" class="aspect-square w-full rounded-2xl object-cover" loading="lazy" />
+    </div>
+
+    <h2 class="text-center text-3xl font-black leading-tight text-theme-primary md:text-5xl">
+      Lo que dicen
+      <br />
+      nuestras alumnas
+    </h2>
+
+    <div class="grid gap-5 md:grid-cols-3">
+      <a href="https://youtu.be/Rd4nCD49LF4" target="_blank" rel="noopener noreferrer" class="group relative block overflow-hidden rounded-3xl shadow-sm">
+        <img src="/images/Sophie-Sandoval.webp" alt="" class="h-full w-full object-cover" loading="lazy" />
+        <span class="absolute inset-0 grid place-items-center bg-black/25 transition group-hover:bg-black/35">
+          <span class="grid h-16 w-16 place-items-center rounded-full bg-white/85 text-theme-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="h-10 w-10 fill-current">
+              <path d="M838 162C746 71 633 25 500 25 371 25 258 71 163 162 71 254 25 367 25 500 25 633 71 746 163 837 254 929 367 979 500 979 633 979 746 933 838 837 929 746 975 633 975 500 975 367 929 254 838 162M808 192C892 279 933 379 933 500 933 621 892 725 808 808 725 892 621 938 500 938 379 938 279 896 196 808 113 725 67 621 67 500 67 379 108 279 196 192 279 108 383 62 500 62 621 62 721 108 808 192M438 392V642L642 517 438 392Z"></path>
+            </svg>
+          </span>
+        </span>
+      </a>
+      <a href="https://youtu.be/VxhkbNgyOH8" target="_blank" rel="noopener noreferrer" class="group relative block overflow-hidden rounded-3xl shadow-sm">
+        <img src="/images/Monica-1.webp" alt="" class="h-full w-full object-cover" loading="lazy" />
+        <span class="absolute inset-0 grid place-items-center bg-black/25 transition group-hover:bg-black/35">
+          <span class="grid h-16 w-16 place-items-center rounded-full bg-white/85 text-theme-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="h-10 w-10 fill-current">
+              <path d="M838 162C746 71 633 25 500 25 371 25 258 71 163 162 71 254 25 367 25 500 25 633 71 746 163 837 254 929 367 979 500 979 633 979 746 933 838 837 929 746 975 633 975 500 975 367 929 254 838 162M808 192C892 279 933 379 933 500 933 621 892 725 808 808 725 892 621 938 500 938 379 938 279 896 196 808 113 725 67 621 67 500 67 379 108 279 196 192 279 108 383 62 500 62 621 62 721 108 808 192M438 392V642L642 517 438 392Z"></path>
+            </svg>
+          </span>
+        </span>
+      </a>
+      <a href="https://youtu.be/NoIsMtjaono" target="_blank" rel="noopener noreferrer" class="group relative block overflow-hidden rounded-3xl shadow-sm">
+        <img src="/images/Yessica-Bogado.webp" alt="" class="h-full w-full object-cover" loading="lazy" />
+        <span class="absolute inset-0 grid place-items-center bg-black/25 transition group-hover:bg-black/35">
+          <span class="grid h-16 w-16 place-items-center rounded-full bg-white/85 text-theme-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="h-10 w-10 fill-current">
+              <path d="M838 162C746 71 633 25 500 25 371 25 258 71 163 162 71 254 25 367 25 500 25 633 71 746 163 837 254 929 367 979 500 979 633 979 746 933 838 837 929 746 975 633 975 500 975 367 929 254 838 162M808 192C892 279 933 379 933 500 933 621 892 725 808 808 725 892 621 938 500 938 379 938 279 896 196 808 113 725 67 621 67 500 67 379 108 279 196 192 279 108 383 62 500 62 621 62 721 108 808 192M438 392V642L642 517 438 392Z"></path>
+            </svg>
+          </span>
+        </span>
+      </a>
+    </div>
+
+    <p class="text-center text-xl font-semibold text-theme-primary md:text-2xl">Tú puedes ser la próxima alumna con resultados…</p>
+    <div class="text-center">
+      <ButtonCTA href="https://hotm.io/bootcamp-paginawebb" target="_blank" rel="noopener noreferrer" text="¡UNIRME AL BOOTCAMP AHORA!" />
+    </div>
+  </div>
+</section>
+
+<section class="bg-theme-bg px-4 py-20">
+  <SectionDivider type="wave" class="-scale-y-100 text-white" />
+  <div class="mx-auto mt-8 max-w-6xl space-y-8">
+    <h2 class="text-center text-3xl font-black leading-tight text-theme-primary md:text-5xl">
+      ¿Para quién es
+      <br />
+      <span class="text-theme-accent">este programa?</span>
+    </h2>
+
+    <div class="grid gap-5 md:grid-cols-2">
+      <Card class="p-6">
+        <h3 class="text-2xl font-black text-theme-primary">Esto es para ti:</h3>
+        <ul class="mt-4 list-inside list-disc space-y-2 leading-relaxed">
+          <li>Para reposteras que quieren transformar su pasión en un negocio saludable y rentable.</li>
+          <li>Para quienes buscan recetas saludables que realmente se vendan y gusten al público.</li>
+          <li>Para emprendedoras que desean diferenciarse con postres irresistibles sin azúcar, sin gluten, sin lácteos o con opciones inclusivas.</li>
+          <li>Para reposteras con o sin experiencia previa que quieren crecer su emprendimiento.</li>
+          <li>Para quienes están listas para comprometerse y dedicar tiempo a mejorar sus recetas y ventas.</li>
+        </ul>
+      </Card>
+      <Card class="p-6">
+        <h3 class="text-2xl font-black text-theme-primary">Esto no ❌ es para ti:</h3>
+        <ul class="mt-4 list-inside list-disc space-y-2 leading-relaxed">
+          <li>Para quienes siempre viven con excusas de tiempo y dinero.</li>
+          <li>Para quienes no están dispuestos(as) a dejarse guiar ni llevar a la práctica lo aprendido.</li>
+          <li>Para quienes quieres seguir experimentando recetas de internet, leyendo y probando cosas distintas que solo te llevan por el camino más largo.</li>
+          <li>Para quienes no están dispuestos(as) a invertir en su aprendizaje para empezar a mejorar su negocio y prefieren seguir como hasta ahora.</li>
+          <li>Para quienes no están abiertas a adaptar sus productos a las necesidades del mercado saludable.</li>
+        </ul>
+      </Card>
+    </div>
+
+    <div class="text-center">
+      <ButtonCTA href="https://hotm.io/bootcamp-paginawebb" target="_blank" rel="noopener noreferrer" text="¡Sí, este BOOTCAMP es para mi!" />
+    </div>
+  </div>
+</section>

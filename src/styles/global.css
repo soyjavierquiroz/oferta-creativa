@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-theme-bg text-theme-text antialiased;
+    font-family:
+      "DM Sans",
+      "Avenir Next",
+      "Segoe UI",
+      sans-serif;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+}

@@ -1,0 +1,185 @@
+---
+import ButtonCTA from "../ui/ButtonCTA.astro";
+import Card from "../ui/Card.astro";
+---
+
+<section class="bg-white px-4 py-20">
+  <div class="mx-auto max-w-6xl space-y-12">
+    <div class="space-y-4 text-center">
+      <h2 class="text-3xl font-black leading-tight text-theme-primary md:text-5xl">
+        Te presento nuestro Bootcamp
+        <br />
+        <span class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">“Postres Saludables para Emprender”</span>
+      </h2>
+      <p class="mx-auto max-w-3xl text-lg leading-relaxed">
+        Un programa intensivo que te enseña a crear recetas best seller en su versión saludable, con técnicas que funcionan.
+      </p>
+    </div>
+
+    <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+      <Card class="overflow-hidden">
+        <img src="/images/1-0923182.webp" alt="" class="h-52 w-full object-cover" loading="lazy" />
+        <div class="space-y-3 p-6">
+          <h3 class="text-2xl font-black text-theme-primary">Bases iniciales</h3>
+          <p class="leading-relaxed">
+            En este módulo entenderás la magia detrás de la repostería saludable <b>(desde ingredientes hasta técnicas)</b> para que no solo unas recetas, sino que las trabajes con confianza.
+          </p>
+        </div>
+      </Card>
+
+      <Card class="overflow-hidden">
+        <img src="/images/2-0923182.webp" alt="" class="h-52 w-full object-cover" loading="lazy" />
+        <div class="space-y-3 p-6">
+          <h3 class="text-2xl font-black text-theme-primary">Galletas Estilo New York</h3>
+          <ul class="list-inside list-disc space-y-1 leading-relaxed">
+            <li>Galletas estilo NY Choco Chips</li>
+            <li>Galletas estilo NY chocolate blanco</li>
+            <li>Galletas estilo NY con frutos rojos</li>
+            <li>Galletas estilo NY pie de limón</li>
+          </ul>
+        </div>
+      </Card>
+
+      <Card class="overflow-hidden">
+        <img src="/images/3-0923182.webp" alt="" class="h-52 w-full object-cover" loading="lazy" />
+        <div class="space-y-3 p-6">
+          <h3 class="text-2xl font-black text-theme-primary">Delicias cuchareables</h3>
+          <ul class="list-inside list-disc space-y-1 leading-relaxed">
+            <li>Cucharable de alfajor</li>
+            <li>Cucharable de zanahoria</li>
+            <li>Cucharable de chocolate y café</li>
+          </ul>
+        </div>
+      </Card>
+
+      <Card class="overflow-hidden">
+        <img src="/images/4-0923182.webp" alt="" class="h-52 w-full object-cover" loading="lazy" />
+        <div class="space-y-3 p-6">
+          <h3 class="text-2xl font-black text-theme-primary">Postres saludables de vitrina</h3>
+          <ul class="list-inside list-disc space-y-1 leading-relaxed">
+            <li>Tiramisú</li>
+            <li>Pionono proteico</li>
+            <li>Snickers fit</li>
+            <li>Cheesecake de arándanos y coco</li>
+          </ul>
+        </div>
+      </Card>
+
+      <Card class="overflow-hidden md:col-span-2 xl:col-span-2">
+        <img src="/images/5-0923182.webp" alt="" class="h-52 w-full object-cover" loading="lazy" />
+        <div class="space-y-3 p-6">
+          <h3 class="text-2xl font-black text-theme-primary">Postres saludables para Eventos</h3>
+          <ul class="list-inside list-disc space-y-1 leading-relaxed">
+            <li>Tortas personalizadas</li>
+            <li>Cupcakes temáticos</li>
+            <li>Trufas estilo Ferrero Rocher</li>
+            <li>Cheesecake de fresa en vaso</li>
+          </ul>
+        </div>
+      </Card>
+    </div>
+
+    <div class="text-center">
+      <ButtonCTA href="#oferta" text="¡QUIERO UNIRME AL BOOTCAMP!" />
+    </div>
+  </div>
+</section>
+
+<section class="bg-theme-bg px-4 py-20">
+  <div class="mx-auto max-w-6xl space-y-8">
+    <h2 class="text-center text-3xl font-black text-theme-primary md:text-5xl">Beneficios que tendrás al ser parte</h2>
+
+    <Card class="grid gap-5 p-6 md:grid-cols-[1.2fr_0.8fr]">
+      <div>
+        <h3 class="text-2xl font-black text-theme-primary">
+          <span class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">Recetario digital</span>
+          <br />
+          interactivo
+        </h3>
+        <ul class="mt-3 list-inside list-disc space-y-1 leading-relaxed">
+          <li>Cantidades exactas de ingredientes e Instrucciones paso a paso</li>
+          <li>Incluye utensilios básicos para emplear, indumentaria y tips</li>
+        </ul>
+      </div>
+      <img src="/images/Recetario-digital-0445732.webp" alt="" class="w-full rounded-2xl object-cover" loading="lazy" />
+    </Card>
+
+    <Card class="grid gap-5 p-6 md:grid-cols-[1.2fr_0.8fr]">
+      <div>
+        <h3 class="text-2xl font-black text-theme-primary">
+          <span class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">Guia Maestra</span>
+          <br />
+          de Insumos
+        </h3>
+        <ul class="mt-3 list-inside list-disc space-y-1 leading-relaxed">
+          <li>Encontrarás los pasos para realizar una adecuada compra de cada insumo.</li>
+          <li>Cómo identificar ingredientes de calidad.</li>
+          <li>Lugares y marcas recomendadas.</li>
+        </ul>
+      </div>
+      <img src="/images/Guia-Maestra-0445733.webp" alt="" class="w-full rounded-2xl object-cover" loading="lazy" />
+    </Card>
+
+    <Card class="grid gap-5 p-6 md:grid-cols-[1.2fr_0.8fr]">
+      <div>
+        <h3 class="text-2xl font-black text-theme-primary">
+          <span class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">Sesiones en vivo</span>
+          <br />
+          Vía Zoom
+        </h3>
+        <ul class="mt-3 list-inside list-disc space-y-1 leading-relaxed">
+          <li>Accederás a 2 sesiones por semana donde se elaboran las recetas en vivo.</li>
+          <li>¿No te puedes conectar? No te preocupes, tendrás acceso a las repeticiones.</li>
+          <li>Podrás resolver tus dudas en el momento para avanzar más rápido y con confianza.</li>
+        </ul>
+      </div>
+      <img src="/images/asesoria-VIP-0445733.webp" alt="" class="w-full rounded-2xl object-cover" loading="lazy" />
+    </Card>
+
+    <Card class="grid gap-5 p-6 md:grid-cols-[1.2fr_0.8fr]">
+      <div>
+        <h3 class="text-2xl font-black text-theme-primary">
+          <span class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">Acceso al contenido</span>
+          <br />
+          por 1 año
+        </h3>
+        <ul class="mt-3 list-inside list-disc space-y-1 leading-relaxed">
+          <li>Accederás a un plataforma amigable de estudios.</li>
+          <li>Encontrarás recursos exclusivos y videos para que puedas repasar cada detalle.</li>
+          <li>Podrás ir a tu ritmo con la plataforma llevando a la práctica lo aprendido</li>
+        </ul>
+      </div>
+      <img src="/images/hotmart-0445733.webp" alt="" class="w-full rounded-2xl object-cover" loading="lazy" />
+    </Card>
+
+    <Card class="p-8 text-center">
+      <h3 class="text-2xl font-black text-theme-primary">Y contarás con una comunidad</h3>
+      <p class="mt-3 text-lg">"Internacional de reposteras saludables"</p>
+    </Card>
+
+    <Card class="grid gap-5 p-6 md:grid-cols-[1.2fr_0.8fr]">
+      <div>
+        <h3 class="text-3xl font-black text-theme-primary">
+          Serás parte de nuestro <span class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">grupo exclusivo</span>
+        </h3>
+        <p class="mt-4 leading-relaxed">
+          <b>No te sentirás sola</b>
+          <br />
+          <br />
+          Tendrás el tiempo que dure el bootcamp una comunidad de reposteras saludables para compartir tu proceso de aprendizaje y logros.
+        </p>
+      </div>
+      <img src="/images/Grupo-privado-0445733.webp" alt="" class="w-full rounded-2xl object-cover" loading="lazy" />
+    </Card>
+
+    <Card class="space-y-6 p-6 text-center">
+      <img src="/images/certificado-0445732.webp" alt="" class="mx-auto w-full max-w-3xl rounded-2xl object-cover" loading="lazy" />
+      <h3 class="text-3xl font-black leading-tight text-theme-primary">
+        Obtendrás un certificado
+        <br />
+        <b class="text-theme-primary underline decoration-theme-accent decoration-2 underline-offset-4">De participación al concluir</b>
+      </h3>
+      <ButtonCTA href="#oferta" text="¡QUIERO UNIRME AL BOOTCAMP!" />
+    </Card>
+  </div>
+</section>

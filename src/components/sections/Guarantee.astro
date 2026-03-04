@@ -1,0 +1,25 @@
+---
+import ButtonCTA from "../ui/ButtonCTA.astro";
+import Card from "../ui/Card.astro";
+---
+
+<section class="bg-theme-primary px-4 py-20 text-white">
+  <div class="mx-auto max-w-6xl space-y-10">
+    <h2 class="text-center text-3xl font-black leading-tight md:text-5xl">
+      Tu compra se encuentra respaldada
+      <br />
+      <span class="text-white">por nuestra garantía de satisfacción</span>
+    </h2>
+
+    <div class="grid items-center gap-6 md:grid-cols-[1.1fr_0.9fr]">
+      <Card class="space-y-5 bg-white/95 p-8 text-theme-text">
+        <p class="text-lg font-bold leading-relaxed text-theme-primary">
+          PRUEBA EL BOOTCAMP POSTRES SALUDABLES PARA EMPRENDER <b>POR 7 DÍAS</b> YSI NO ES LO QUE ESPERABAS TE REGRESAMOS EL 100% DE TU DINERO.
+        </p>
+        <ButtonCTA href="https://hotm.io/bootcamp-paginawebb" target="_blank" rel="noopener noreferrer" text="QUIERO PROBAR SIN RIESGOS!" />
+      </Card>
+
+      <img src="/images/Garantia.webp" alt="" class="mx-auto w-full max-w-md rounded-3xl object-cover shadow-sm" loading="lazy" />
+    </div>
+  </div>
+</section>

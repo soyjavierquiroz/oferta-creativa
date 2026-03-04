@@ -1,0 +1,31 @@
+---
+const {
+  href = "#oferta",
+  text,
+  target,
+  rel,
+  class: className = ""
+} = Astro.props;
+---
+
+<a
+  href={href}
+  target={target}
+  rel={rel}
+  class={`inline-flex items-center justify-center gap-2 rounded-full bg-theme-accent px-6 py-3 text-center text-sm font-bold uppercase tracking-wide text-white shadow-sm transition hover:brightness-95 motion-safe:animate-pulse ${className}`}
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    width="20"
+    height="20"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.5"
+    stroke-linecap="round"
+  >
+    <path d="M15 2.5H12C7.52 2.5 5.28 2.5 3.89 3.89C2.5 5.28 2.5 7.52 2.5 12C2.5 16.48 2.5 18.72 3.89 20.11C5.28 21.5 7.52 21.5 12 21.5C16.48 21.5 18.72 21.5 20.11 20.11C21.5 18.72 21.5 16.48 21.5 12V10" />
+    <path d="M8.5 10L12 13.5L21 3.5" />
+  </svg>
+  <span>{text}</span>
+</a>
