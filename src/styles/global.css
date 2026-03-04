@@ -13,6 +13,6 @@
   }
 
   body {
-    @apply font-sans text-[15px] leading-relaxed text-theme-text bg-theme-bg;
+    @apply font-sans text-[15px] leading-relaxed text-theme-text bg-theme-bg antialiased;
   }
 }
