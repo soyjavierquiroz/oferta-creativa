@@ -4,9 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "theme-bg": "#F2F7F7",
-        "theme-primary": "#0F6F73",
-        "theme-accent": "#F2483D",
+        "theme-bg": "#E2EFEF",
+        "theme-surface": "#FFFFFF",
+        "theme-primary": "#0A8B9A",
+        "theme-accent": "#FF0000",
+        "theme-pink": "#FADADD",
         "theme-text": "#334155"
       }
     }
