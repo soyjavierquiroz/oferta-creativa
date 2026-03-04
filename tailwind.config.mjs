@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: ["Playfair Display", "serif"],
-        sans: ["Inter", "sans-serif"]
+        serif: ['Playfair Display', 'serif'],
+        sans: ['Inter', 'sans-serif'],
       },
       colors: {
         "theme-bg": "#E2EFEF",
