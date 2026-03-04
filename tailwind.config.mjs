@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['"Playfair Display"', 'serif'],
+        serif: ['Montserrat', 'sans-serif'],
         sans: ['Inter', 'sans-serif'],
       },
       colors: {
