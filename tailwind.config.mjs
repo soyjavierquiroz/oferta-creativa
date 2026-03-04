@@ -3,6 +3,10 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ['"Playfair Display"', "serif"],
+        sans: ["Inter", "sans-serif"]
+      },
       colors: {
         "theme-bg": "#E2EFEF",
         "theme-surface": "#FFFFFF",
