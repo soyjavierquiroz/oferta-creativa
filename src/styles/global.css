@@ -10,7 +10,7 @@
   body {
     @apply bg-theme-bg text-theme-text antialiased;
     font-family:
-      "DM Sans",
+      "Inter",
       "Avenir Next",
       "Segoe UI",
       sans-serif;
